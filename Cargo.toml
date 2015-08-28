@@ -1,0 +1,10 @@
+[package]
+name = "indus"
+version = "0.1.0"
+authors = ["Anshuman Medhi <rohanmed123@gmail.com>"]
+
+[dependencies.iron]
+version = "*"
+
+[dependencies.rustc-serialize]
+version = "*"

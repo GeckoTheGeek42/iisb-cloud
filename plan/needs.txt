@@ -1,0 +1,5 @@
+Needs:
+ - Domain
+ - Server
+ - Front-end Developer (?)
+ - like... 3-4 weeks
