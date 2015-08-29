@@ -3,8 +3,21 @@ name = "indus"
 version = "0.1.0"
 authors = ["Anshuman Medhi <rohanmed123@gmail.com>"]
 
-[dependencies.iron]
-version = "*"
+[dependencies]
+iron = "*"
+router = "*"
+plugin = "*"
+postgres = "*"
+rustc-serialize = "*"
+rust-crypto = "*"
+log = "*"
+eventual = "*"
+scoped_threadpool = "*"
+threadpool = "*"
+chrono = "*"
 
-[dependencies.rustc-serialize]
-version = "*"
+[dependencies.maud]
+path = "../../rust/maud/maud"
+
+[dependencies.maud_macros]
+path = "../../rust/maud/maud_macros"

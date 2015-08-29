@@ -1,0 +1,27 @@
+[package]
+name = "indus"
+version = "0.1.0"
+authors = ["Anshuman Medhi <rohanmed123@gmail.com>"]
+
+[dependencies]
+iron = "*"
+router = "*"
+plugin = "*"
+postgres = "*"
+postgres_macros = "*"
+rustc-serialize = "*"
+rust-crypto = "*"
+log = "*"
+eventual = "*"
+mio = "*"
+scoped_threadpool = "*"
+threadpool = "*"
+chrono = "*"
+maud = "*"
+maud_macros = "0.4.2"
+
+[dependencies.coroutine]
+git = "https://github.com/rustcc/coroutine-rs.git"
+
+[dependencies.deuterium]
+git = "https://github.com/deuterium-orm/deuterium"
